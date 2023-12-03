@@ -1,18 +1,24 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## COMPOSITE DESIGN PATTERN
-le designe composite permet d'utiliser au besoin un groupe d'object de nature simailre comme un objet unique.
+## Folder Structure
 
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
-- src containt 3 files repertoire.java et compositerepertoire
-  
-- `lib`: the folder to maintain dependencies
+le dossier src comprend un dossier decorateur les patterns composite et et brigde sont directement accessible via le src.
+Pour executer le main principale:
+COMPOSITE on execute le fichier CompositeRepertoire.java
+le composite 
 
-the main cal compositeRepertoire
+Pour Executer le pattern Bridge, c'est le fichier BridgeDesignPatternmain.java
+Le pattern de structuratino Bridge permet de decoupler l'interface d'une classe et son implementation.
+
+
+Pour executer le decorateur...son Main se trouve dans le dossier decorateur avec pour main DECORATORPATTERNDEMO.java
+
+Le decorateur permet a un utilisateur d'ajouter une fonctinonalite a un object existant sans changer sa structure.
+- `lib`: the folder to maintain dependencies
 
 ## Dependency Management
 
